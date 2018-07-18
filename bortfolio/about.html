@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>mohamed hella</title>
+        <meta charset="utf-8">
+        <!--font normalize-->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <!--font awesome-->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <!--main css-->
+        <link rel="stylesheet" href="css/about.css">
+        <!-- view port -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+<!--   start header     -->
+        <header>
+            <nav>
+                <a href="index.html"><h1><span>7</span>ella</h1></a>
+                <div class="group">
+                     <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i id="ico" class="fa fa-bars" aria-hidden="true"></i></a>     
+                    <div id="mnu" class="hed">
+                        <ul>
+                            <a href="index.html"><li>home</li></a>
+                            <a href="about.html"><li class="active">about</li></a>
+                            <a href="contact.html"><li>contact</li></a>                
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="start"></div>
+<!--   end header     -->
+<!--    start section    -->
+        <section class="alli">
+            <h3>about</h3>
+            <div class="me">
+                <img src="img/mohamed.jpg">
+                <div class="desc">
+                    <p>Hi, I'm mohamed hella! This is my design portfolio where I share all of my favroite work. When I'm not designing things, I enjoy exercising, playing video games, drinking good coffee, and more.</p>
+
+                    <p>you could see my project at <a href="index.html">home</a> page</p>
+                </div>
+            </div>
+        </section>
+<!--    end section    -->
+<!--  start footer-->
+        
+        <footer class="alli">
+            <p>&copy;2017-7ella</p>
+            <a href="#" title="google+"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a href="#" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#" title="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#" title="youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+            <a href="#" title="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </footer>
+        
+<!--  end footer-->
+<!-- start script-->
+        <script>
+            function myFunction(){
+                var x = document.getElementById("mnu");
+                if(x.className=="ves"){
+                    x.className="hed";
+                    document.getElementById("ico").className="fa fa-bars";
+                }
+                else{
+                    x.className="ves";
+                    document.getElementById("ico").className="fa fa-times";
+                }
+            }
+        </script>
+<!-- end script-->
+    
+    
+    </body>
+</html>        
